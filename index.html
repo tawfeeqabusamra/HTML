@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Search Filter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Quote Search Filter</h1>
+    <input type="text" id="searchInput" placeholder="Enter a keyword to filter quotes">
+    <p class="error" id="errorMessage" style="display: none;">Failed to fetch quotes. Please try again.</p>
+    <ul id="quoteList"></ul>
+
+    <script src="app.js"></script>
+</body>
+</html>
